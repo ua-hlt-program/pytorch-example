@@ -20,7 +20,7 @@ _NOTE: This step is not necessary if you simply want to use an already published
 
 ```
 # login to dockerhub registry
-docker login --username=yourdockerhubusername --email=youremail@domain.com
+docker login --username=yourdockerhubusername --password=yourpassword
 
 docker push org/image-name:taghere
 ```
